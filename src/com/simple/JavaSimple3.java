@@ -1,13 +1,9 @@
 package com.simple;
 
-public class JavaSimple {
+public class JavaSimple3 {
 
 	public static void main(String[] args) {
-		//this is vinay
-		
-		//data
-		
-		//data2
+		// this is small program
 			
 			String s="hungry";
 					if(s=="hungry"){
@@ -15,8 +11,6 @@ public class JavaSimple {
 					}
 					else{
 						System.out.println("Do your own work");
-						
-						//data4
 					}
 				}
 
