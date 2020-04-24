@@ -53,6 +53,26 @@ System.out.println("combined array is");
 String cm =Arrays.toString(combinedIntArray);
 System.out.println(cm);
 
+///5---7. Covnert an ArrayList to an array
+String[] stringArray1 = { "a", "b", "c", "d", "e" };
+
+  ArrayList<String> bb = new ArrayList<>(Arrays.asList(stringArray1));
+  
+ String[] output = new String[bb.size()];
+ 
+ bb.toArray(output);
+ 
+ System.out.println("arraylist to array conversion---------------------------");
+ for(String s: output){
+	 System.out.println(s);
+ }
+  
+  
+ //-- int to string con
+
+
+
+
 
 	}
 
