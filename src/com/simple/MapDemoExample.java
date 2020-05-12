@@ -18,7 +18,7 @@ public class MapDemoExample {
 		arr.add(7);
 
 		arr.add(8);
-
+        arr.add(87);
 		arr.add(2);
 		arr.add(23);
 		arr.add(4);
@@ -31,12 +31,29 @@ public class MapDemoExample {
 		
 		
 		
-		HashMap<Integer,Integer> map = new HashMap();
+	HashMap<Integer,Integer> map = new HashMap();
 		
+	for(Integer i: arr){
+		Integer count =map.get(i);
 		
-		for(Entry<Integer, Integer> e: map.entrySet()){
+		if(count ==null){
+			map.put(i, 1);
+			
 		}
+		else{
+			map.put(i, ++count);
+		}
+	}
 
+	
+	
+ for(Entry<Integer,Integer> ele : map.entrySet()){
+	 
+	 
+	 System.out.println("print one by one");
+	 System.out.println("key value"+ele.getKey() +"values count is "+ele.getValue());
+
+ }
 	}
 
 }

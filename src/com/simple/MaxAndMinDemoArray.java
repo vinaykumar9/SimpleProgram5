@@ -22,7 +22,9 @@ public class MaxAndMinDemoArray {
               System.out.println("second largest number in an given array is  "+array[array.length-2]);
               System.out.println("largest number in an given array is  "+array[array.length-1]);    
               System.out.println("smallest number in an given array is  "+array[0]);*/
+		System.out.println(Arrays.binarySearch(array, 67));
 		
+	
 		int temp;
 		
 		for( i  =0;i<array.length-1;i++){

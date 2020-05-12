@@ -24,7 +24,7 @@ Map<Integer,Integer>  map = new HashMap<Integer, Integer>();
 	 System.out.println("count value "+i);
 	 System.out.println("array value "+array1[i]);
 
-	 if(count==null){
+if(count==null){
 		 
 		 map.put(array1[i], 1);
 		 System.out.println("ADDED INTO MAP");
@@ -34,8 +34,6 @@ Map<Integer,Integer>  map = new HashMap<Integer, Integer>();
 		 map.put(array1[i], ++count);
 	 }
 	}
- 
- 
  
  Set<Entry<Integer,Integer>> sr = map.entrySet();
  for(Entry<Integer,Integer> ele:sr){
@@ -54,4 +52,5 @@ Map<Integer,Integer>  map = new HashMap<Integer, Integer>();
 
 	
 	
-}
+	}
+
